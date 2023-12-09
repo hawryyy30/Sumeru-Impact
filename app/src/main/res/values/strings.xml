@@ -1,3 +1,102 @@
 <resources>
     <string name="app_name">Sumeru Impact</string>
+
+    <string-array name="foranger_names">
+        <item>Arif Adrian</item>
+        <item>Christofel Vitranata</item>
+        <item>Harry Sion Tarigan</item>
+        <item>Tessa Agitha</item>
+    </string-array>
+
+    <string-array name="foranger_email">
+        <item>arifadrian2316@gmail.com</item>
+        <item>christovel123@gmail.com</item>
+        <item>harrystream86@gmail.com</item>
+        <item>agithatessa@gmail.com</item>
+    </string-array>
+
+    <string-array name="foranger_jobdesc">
+        <item>Programmer</item>
+        <item>Programmer</item>
+        <item>UI/UX Designer, Programmer</item>
+        <item>Programmer</item>
+    </string-array>
+
+    <string-array name="chara_names">
+        <item>Tighnari</item>
+        <item>Collei</item>
+        <item>Candace</item>
+        <item>Cyno</item>
+        <item>Dori</item>
+        <item>Nilou</item>
+        <item>Nahida</item>
+        <item>Layla</item>
+        <item>Wanderer</item>
+        <item>Faruzan</item>
+        <item>Alhaitham</item>
+        <item>Dehya</item>
+    </string-array>
+
+    <string-array name="chara_introduction">
+        <item>"Tighnari is the stern Chief Officer of the Forest Rangers and Collei's mentor. Despite his intelligence, he prefers to live a solitary life in the depths of Avidya Forest rather than in the ivory tower of Sumeru Academy."</item>
+        <item>"A Trainee Forest Ranger who is under the tutelage of Tighnari. She started her academic career a little later than her peers, so she is currently working hard to catch up. She hides the other side of her personality deep under the surface of optimism and kindness."</item>
+        <item>"A descendant of King Deshret with an amber left eye. The defender of Aaru Village."</item>
+        <item>"The General Mahamatra of the Akademiya, leader of all the Matras. He has a unique sense of humor that never fails to leave a deep impression."</item>
+        <item>"Dori is a merchant in Sumeru who has a fondness for glittering Mora. With her persuasive eloquence, she is able to sell various strange and mysterious products for a very high price."</item>
+        <item>"Star of the Zubayr Theater. Her dance is as graceful as a water lily in first bloom, pure and pristine. But she is by no means a haughty and cold person. Even the most hurried traveler will not forget her innocent and radiant smile."</item>
+        <item>"Lesser Lord Kusanali dwells deep in the Sanctuary of Surasthana, and has never really been in the limelight, nor has she even been mentioned much.Her burden is heavy, but though she may experience loneliness, and though darkness is all she sees before her, she will not stop moving forward."</item>
+        <item>"A Rtawahist student who always looks sleep-deprived. Her dark eye circles have been worsening due to academic stress. Yet no matter how difficult the work at hand, she always manages to make the most brilliant deductions. Could she be writing her thesis in her dreams?"</item>
+        <item>"If the measure of humanity is having a heart, then he cannot be deemed as such. If one without a heart experiences joy and sorrow, then he shall be a puppet most alike to humanity."</item>
+        <item>"A distinguished Akademiya scholar from "a century ago" and one of the founders of Ancient Mechanics as a field of study. Although she hailed from Haravatat, she was renowned for her talents in machinery throughout Sumeru... Even though these honors have been forgotten in the river of time, much as she has."</item>
+        <item>"The current scribe of the Sumeru Akademiya, a man endowed with extraordinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway."</item>
+        <item>"A member of "The Eremites," a loosely-organized mercenary organization. She is brave, powerful, and enjoys an excellent reputation among mercenaries."</item>
+    </string-array>
+
+    <string-array name="chara_thumbnails">
+        <item>@drawable/img_tighnari</item>
+        <item>@drawable/img_collei</item>
+        <item>@drawable/img_candace</item>
+        <item>@drawable/img_cyno</item>
+        <item>@drawable/img_dori</item>
+        <item>@drawable/img_nilou</item>
+        <item>@drawable/img_nahida</item>
+        <item>@drawable/img_layla</item>
+        <item>@drawable/img_wanderer</item>
+        <item>@drawable/img_faruzan</item>
+        <item>@drawable/img_alhaitham</item>
+        <item>@drawable/img_dehya</item>
+    </string-array>
+
+    <string-array name="chara_weapons">
+        <item>Bow</item>
+        <item>Bow</item>
+        <item>Polearm</item>
+        <item>Polearm</item>
+        <item>Claymore</item>
+        <item>Sword</item>
+        <item>Catalyst</item>
+        <item>Sword</item>
+        <item>Catalyst</item>
+        <item>Bow</item>
+        <item>Sword</item>
+        <item>Claymore</item>
+    </string-array>
+
+    <string-array name="chara_visions">
+        <item>Dendro</item>
+        <item>Dendro</item>
+        <item>Hydro</item>
+        <item>Electro</item>
+        <item>Electro</item>
+        <item>Hydro</item>
+        <item>Dendro</item>
+        <item>Cryo</item>
+        <item>Anemo</item>
+        <item>Anemo</item>
+        <item>Dendro</item>
+        <item>Pyro</item>
+    </string-array>
+
+
+
 </resources>
