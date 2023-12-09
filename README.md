@@ -1,6 +1,6 @@
 ![Splash Activity](https://github.com/hawryyy30/Sumeru-Impact/assets/106805563/f42cdedd-1b8a-41a7-b65a-30ffc1777a93)
 
-# Sumeru-Impact
+# Sumeru-Impact [Status : WIP]
 Genshin Impact : Sumeru characters handbook android application | A project by Foranger Team.
 A submission for LabMP4 Mid-term built with kotlin. 
 
