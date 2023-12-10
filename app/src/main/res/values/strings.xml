@@ -1,11 +1,21 @@
 <resources>
     <string name="app_name">Sumeru Impact</string>
+    <string name="disclaimer">All images and data utilized are the copyrighted property of COGNOSPHERE. All rights are reserved.</string>
+    <string name="nav_char_about">Character</string>
+    <string name="nav_about_string">About</string>
 
     <string-array name="foranger_names">
         <item>Arif Adrian</item>
         <item>Christofel Vitranata</item>
         <item>Harry Sion Tarigan</item>
         <item>Tessa Agitha</item>
+    </string-array>
+
+    <string-array name="foranger_photos">
+        <item>@drawable/img_arif</item>
+        <item>@drawable/img_christovel</item>
+        <item>@drawable/img_harry</item>
+        <item>@drawable/img_tessa</item>
     </string-array>
 
     <string-array name="foranger_email">
@@ -52,6 +62,21 @@
         <item>"A member of "The Eremites," a loosely-organized mercenary organization. She is brave, powerful, and enjoys an excellent reputation among mercenaries."</item>
     </string-array>
 
+    <string-array name="chara_portraits">
+        <item>@drawable/portrait_tighnari</item>
+        <item>@drawable/portrait_collei</item>
+        <item>@drawable/portrait_candace</item>
+        <item>@drawable/portrait_cyno</item>
+        <item>@drawable/portrait_dori</item>
+        <item>@drawable/portrait_nillou</item>
+        <item>@drawable/portrait_nahida</item>
+        <item>@drawable/portrait_layla</item>
+        <item>@drawable/portrait_wanderer</item>
+        <item>@drawable/portrait_faruzan</item>
+        <item>@drawable/portrait_alhaitham</item>
+        <item>@drawable/portrait_dehya</item>
+    </string-array>
+
     <string-array name="chara_thumbnails">
         <item>@drawable/img_tighnari</item>
         <item>@drawable/img_collei</item>
@@ -65,6 +90,51 @@
         <item>@drawable/img_faruzan</item>
         <item>@drawable/img_alhaitham</item>
         <item>@drawable/img_dehya</item>
+    </string-array>
+
+    <string-array name="chara_vision_icons">
+        <item>@drawable/img_dendro</item>
+        <item>@drawable/img_dendro</item>
+        <item>@drawable/img_hydro</item>
+        <item>@drawable/img_electro</item>
+        <item>@drawable/img_electro</item>
+        <item>@drawable/img_hydro</item>
+        <item>@drawable/img_dendro</item>
+        <item>@drawable/img_hydro</item>
+        <item>@drawable/img_anemo</item>
+        <item>@drawable/img_anemo</item>
+        <item>@drawable/img_dendro</item>
+        <item>@drawable/img_pyro</item>
+    </string-array>
+
+    <string-array name="chara_quality">
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_standard</item>
+        <item>@drawable/img_standard</item>
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_standard</item>
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_standard</item>
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_standard</item>
+        <item>@drawable/img_rare</item>
+        <item>@drawable/img_rare</item>
+    </string-array>
+
+    <string-array name="chara_portrait">
+        <item>Tighnari</item>
+        <item>Collei</item>
+        <item>Candace</item>
+        <item>Cyno</item>
+        <item>Dori</item>
+        <item>Nilou</item>
+        <item>Nahida</item>
+        <item>Layla</item>
+        <item>Wanderer</item>
+        <item>Faruzan</item>
+        <item>Alhaitham</item>
+        <item>Dehya</item>
     </string-array>
 
     <string-array name="chara_weapons">
@@ -98,5 +168,79 @@
     </string-array>
 
 
+    <string-array name="chara_nicknames">
+        <item>Verdant Strider</item>
+        <item>Sprout of Rebirth</item>
+        <item>Golden Vow</item>
+        <item>Judicator of Secrets</item>
+        <item>Treasure of Dream Garden</item>
+        <item>Dance of Lotuslight</item>
+        <item>Physic of Purity</item>
+        <item>Fantastical Evening Star</item>
+        <item>Eons Adrift</item>
+        <item>Enigmatic Machinist</item>
+        <item>Admonishing Instruction</item>
+        <item>Flame-Mane</item>
+    </string-array>
+
+    <string-array name="chara_birthdays">
+        <item>December 29th</item>
+        <item>May 8th</item>
+        <item>May 3rd</item>
+        <item>June 23rd</item>
+        <item>December 21st</item>
+        <item>December 3rd</item>
+        <item>October 27th</item>
+        <item>December 19th</item>
+        <item>January 3rd</item>
+        <item>August 20th</item>
+        <item>February 11th</item>
+        <item>April 7th</item>
+    </string-array>
+
+    <string-array name="chara_constellations">
+        <item>Vulpes Zerda</item>
+        <item>Leptailurus Cervarius</item>
+        <item>Sagitta Scutum</item>
+        <item>Lupus Aureus</item>
+        <item>Magicae Lucerna</item>
+        <item>Lotos Somno</item>
+        <item>Sapientia Oromasdis</item>
+        <item>Luscinia</item>
+        <item>Peregrinus</item>
+        <item>Flosculi Implexi</item>
+        <item>Vultur Volans</item>
+        <item>Mantichora</item>
+    </string-array>
+
+    <string-array name="chara_affiliations">
+        <item>Forest Ranger</item>
+        <item>Forest Ranger</item>
+        <item>Aaru Village</item>
+        <item>Matra</item>
+        <item>The Palace of Alcazarzaray</item>
+        <item>Zubayr Theater</item>
+        <item>The Seven</item>
+        <item>Rtawahist</item>
+        <item>Vahumana</item>
+        <item>Haravatat</item>
+        <item>Sumeru Akademiya </item>
+        <item>The Eremites </item>
+    </string-array>
+
+    <string-array name="chara_dishes">
+        <item>"Forest Watcher's Choice"</item>
+        <item>Uyamoya</item>
+        <item>Utmost Care</item>
+        <item>Duel Soul</item>
+        <item>Show Me the Mora</item>
+        <item>Swirling Steps</item>
+        <item>Halvamazd</item>
+        <item>Extravagant Slumber Extravagant Slumber</item>
+        <item>Shimi Chazuke</item>
+        <item>Baked Ajilenakh Cake</item>
+        <item>Ideal Circumstance</item>
+        <item>Goldflame Tajine</item>
+    </string-array>
 
 </resources>
