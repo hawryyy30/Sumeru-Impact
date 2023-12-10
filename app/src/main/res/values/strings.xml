@@ -1,8 +1,12 @@
 <resources>
+
     <string name="app_name">Sumeru Impact</string>
     <string name="disclaimer">All images and data utilized are the copyrighted property of COGNOSPHERE. All rights are reserved.</string>
+
+
     <string name="nav_char_about">Character</string>
     <string name="nav_about_string">About</string>
+
 
     <string-array name="foranger_names">
         <item>Arif Adrian</item>
@@ -242,5 +246,7 @@
         <item>Ideal Circumstance</item>
         <item>Goldflame Tajine</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
