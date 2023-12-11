@@ -45,7 +45,7 @@ class DetailActivity : AppCompatActivity() {
         name = findViewById(R.id.chara_names)
         nickname = findViewById(R.id.chara_nicknames)
 
-        introduction = findViewByID(R.id.chara_introduction)
+        introduction = findViewById(R.id.chara_introduction)
         weapon = findViewById(R.id.chara_weapons)
         vision = findViewById(R.id.chara_visions)
         constellation = findViewById(R.id.chara_constellations)
