@@ -12,7 +12,7 @@ class DetailActivity : AppCompatActivity() {
     private lateinit var photoSplash: ImageView
     private lateinit var name: TextView
     private lateinit var nickname: TextView
-    private lateinit var description: TextView
+    private lateinit var introduction: TextView
     private lateinit var weapon: TextView
     private lateinit var vision: TextView
     private lateinit var constellation: TextView
@@ -25,7 +25,7 @@ class DetailActivity : AppCompatActivity() {
         const val EXTRA_PHOTO_SPLASH = "extra_photo_splash"
         const val EXTRA_NAME = "extra_name"
         const val EXTRA_NICKNAME = "extra_nickname"
-        const val EXTRA_DESCRIPTION = "extra_description"
+        const val EXTRA_INTRODUCTION = "extra_introduction"
         const val EXTRA_WEAPON = "extra_weapon"
         const val EXTRA_VISION = "extra_vision"
         const val EXTRA_AFFILIATION = "extra_affiliation"
@@ -45,6 +45,7 @@ class DetailActivity : AppCompatActivity() {
         name = findViewById(R.id.chara_names)
         nickname = findViewById(R.id.chara_nicknames)
 
+        introduction = findViewByID(R.id.chara_introduction)
         weapon = findViewById(R.id.chara_weapons)
         vision = findViewById(R.id.chara_visions)
         constellation = findViewById(R.id.chara_constellations)
@@ -61,7 +62,7 @@ class DetailActivity : AppCompatActivity() {
             .into(photoSplash)
         name.text = intent.getStringExtra(EXTRA_NAME)
         nickname.text = intent.getStringExtra(EXTRA_NICKNAME)
-        description.text = intent.getStringExtra(EXTRA_DESCRIPTION)
+        introduction.text = intent.getStringExtra(EXTRA_INTRODUCTION)
         weapon.text = intent.getStringExtra(EXTRA_WEAPON)
         vision.text = intent.getStringExtra(EXTRA_VISION)
         constellation.text = intent.getStringExtra(EXTRA_CONSTELLATION)
