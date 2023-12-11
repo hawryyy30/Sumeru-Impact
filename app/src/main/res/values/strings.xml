@@ -7,6 +7,19 @@
     <string name="nav_char_about">Character</string>
     <string name="nav_about_string">About</string>
 
+    <string name="chara_names">Character Name</string>
+    <string name="chara_nicknames">Character Nickname</string>
+    <string name="introduction">Introduction</string>
+    <string name="chara_introduction">Character Introduction</string>
+    <string name="details">Character Details</string>
+    <string name="chara_details">Character Details</string>
+    <string name="weapon">Weapon</string>
+    <string name="vision">Vision</string>
+    <string name="constellation">Constellation</string>
+    <string name="affiliation">Affiliation</string>
+    <string name="birthday">Birthday</string>
+    <string name="special_dish">Special Dish</string>
+
 
     <string-array name="foranger_names">
         <item>Arif Adrian</item>
