@@ -13,9 +13,12 @@
         android:theme="@style/Theme.SumeruImpact"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".AboutActivity"
             android:exported="false" />
         <activity
+=======
+>>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -26,6 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+<<<<<<< HEAD
             android:exported="true" />
         <activity
             android:name=".DetailActivity"
@@ -35,6 +39,15 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-5099299109975571~1904214813"/>
+=======
+            android:exported="true"/>
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+>>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
     </application>
 
 </manifest>

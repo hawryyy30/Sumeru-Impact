@@ -1,7 +1,10 @@
 package com.foranger.sumeruimpact
 
 import android.os.Parcelable
+<<<<<<< HEAD
 import android.provider.ContactsContract.CommonDataKinds.Email
+=======
+>>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
 import android.sax.Element
 import kotlinx.parcelize.Parcelize
 
