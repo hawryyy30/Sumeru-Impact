@@ -10,7 +10,7 @@ A submission for LabMP4 Mid-term built with kotlin.
 
 ### Foranger Team Members
 - Arif Adrian
-- Christovel Vitranata
+- Christofel Vitranata
 - Harry Sion Tarigan
 - Tessa Agitha
 
