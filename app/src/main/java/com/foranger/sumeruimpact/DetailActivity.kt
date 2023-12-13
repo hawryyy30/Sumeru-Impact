@@ -3,11 +3,14 @@ package com.foranger.sumeruimpact
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class DetailActivity : AppCompatActivity() {
+
+    lateinit var navigationView : BottomNavigationView
 
     private lateinit var name: TextView
     private lateinit var nickname: TextView
@@ -37,7 +40,8 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
 
-        val navigationView: BottomNavigationView = findViewById(R.id.bottom_navigation)
+        navigationView = findViewById(R.id.bottom_navigation)
+        navigationView.setSelectedItemId(R.id.nav_chars)
 
         navigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
@@ -48,14 +52,8 @@ class DetailActivity : AppCompatActivity() {
                 }
                 R.id.nav_about -> {
                     val fragment = AboutFragment()
-                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
+                    supportFragmentManager.beginTransaction().replace(R.id.detail_container, fragment).commit()
                     true
-
-                    /*
-                    val intent = Intent(this@DetailActivity, AboutActivity::class.java)
-                    startActivity(intent)
-                    true
-                    */
                 }
                 else -> false
             }
