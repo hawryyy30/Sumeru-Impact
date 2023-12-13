@@ -1,9 +1,7 @@
 package com.foranger.sumeruimpact
 
 
-import android.annotation.SuppressLint
 import android.content.Intent
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -32,9 +30,6 @@ class AboutActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_about -> {
-//                    val fragment = AboutFragment()
-//                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
-//                    true
 
                     val intent = Intent(this@AboutActivity, AboutActivity::class.java)
                     startActivity(intent)

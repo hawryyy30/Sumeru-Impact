@@ -47,23 +47,10 @@ class DetailActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_about -> {
-//                    val fragment = AboutFragment()
-//                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
-//                    true
 
                     val intent = Intent(this@DetailActivity, AboutActivity::class.java)
                     startActivity(intent)
                     true
-
-                    val fragment = AboutFragment()
-                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
-                    true
-
-                    /*
-                    val intent = Intent(this@DetailActivity, AboutActivity::class.java)
-                    startActivity(intent)
-                    true
-                    */
                 }
                 else -> false
             }
