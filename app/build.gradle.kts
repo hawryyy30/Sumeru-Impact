@@ -27,14 +27,11 @@ android {
             )
         }
     }
-<<<<<<< HEAD
 
     viewBinding {
         enable = true
     }
 
-=======
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -44,10 +41,6 @@ android {
     }
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
 dependencies {
 
     implementation ("jp.wasabeef:blurry:4.0.0")
@@ -56,16 +49,13 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-<<<<<<< HEAD
     implementation("com.google.android.gms:play-services-ads-lite:22.6.0")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("de.hdodenhof:circleimageview:2.2.0")
     implementation("com.google.android.gms:play-services-ads:22.6.0")
-=======
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
 }

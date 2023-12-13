@@ -47,7 +47,6 @@ class DetailActivity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_about -> {
-<<<<<<< HEAD
 //                    val fragment = AboutFragment()
 //                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
 //                    true
@@ -56,7 +55,6 @@ class DetailActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
 
-=======
                     val fragment = AboutFragment()
                     supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
                     true
@@ -66,7 +64,6 @@ class DetailActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
                     */
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
                 }
                 else -> false
             }

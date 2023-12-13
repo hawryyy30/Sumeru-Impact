@@ -8,7 +8,6 @@
     android:background="@color/bg_green_dark"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
     <TextView
         android:id="@+id/chapter"
         android:layout_width="250dp"
@@ -35,17 +34,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chapter"/>
 
-=======
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="fitXY"
-<<<<<<< HEAD
         android:src="@drawable/sumeru" />
-=======
-        android:src="@color/black" />
->>>>>>> c1dd0f08dd4d23283dbe8a9b9a12da2e742cd34d
 
     <TextView
         android:layout_width="match_parent"
