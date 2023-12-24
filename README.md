@@ -5,7 +5,7 @@ Genshin Impact : Sumeru characters handbook android application | A project by F
 A submission for LabMP4 Mid-term built with kotlin. 
 
 ### Preview
-_Preview might be a bit different with the final result_ :p
+
 ![Preview](https://github.com/hawryyy30/Sumeru-Impact/assets/106805563/b83fa7d8-7e38-4b11-ac34-f705816e9de7)
 
 
