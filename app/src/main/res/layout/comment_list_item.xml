@@ -14,6 +14,7 @@
             android:id="@+id/rvComText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
             android:background="@color/bg_green_light"
             android:textSize="16dp"
             android:layout_marginLeft="10dp"

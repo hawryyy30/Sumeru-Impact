@@ -35,16 +35,6 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this@MainActivity, AboutActivity::class.java)
                     startActivity(intent)
                     true
-
-//                    val fragment = AboutFragment()
-//                    supportFragmentManager.beginTransaction().replace(R.id.main_container, fragment).commit()
-//                    true
-
-                    /*
-                    val intent = Intent(this@MainActivity, AboutActivity::class.java)
-                    startActivity(intent)
-                    true
-                    */
                 }
                 R.id.nav_comment ->{
                     val intent = Intent(this@MainActivity,CommentActivity::class.java)

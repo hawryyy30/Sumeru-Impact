@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:fontFamily="@font/genshin"
-            android:text="Foranger"
+            android:text="Comment"
             android:textSize="21dp"
             android:textColor="@color/text_gold"/>
 
@@ -32,8 +32,8 @@
             android:layout_width="250dp"
             android:layout_height="58dp"
             android:fontFamily="@font/genshin"
-            android:text="Comment"
-            android:textSize="48dp"
+            android:text="Section"
+            android:textSize="36dp"
             android:textColor="@color/text_white"/>
 
     </LinearLayout>
@@ -75,7 +75,8 @@
     <Button
         android:id="@+id/btn_komen"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="2dp"
         android:layout_marginTop="570dp"
         android:layout_marginLeft="140dp"
         android:layout_marginRight="140dp"
