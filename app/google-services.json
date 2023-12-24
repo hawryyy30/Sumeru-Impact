@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "96701213957",
+    "firebase_url": "https://sumeru-impact-7728c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sumeru-impact-7728c",
+    "storage_bucket": "sumeru-impact-7728c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96701213957:android:37bd5dd41dcc7aebc61b6c",
+        "android_client_info": {
+          "package_name": "com.foranger.sumeruimpact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSS_Ny7MYDeC3GItcOV4X69gZK1tRwN84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
